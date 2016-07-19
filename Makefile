@@ -2,7 +2,7 @@ CC=hipcc -g
 HIPCC=hipcc -g
 CFLAGS=-I./ -O3
 HIPCCFLAGS=-I./ -O3
-LDFLAGS=-fopenmp
+LDFLAGS=
 LIBS=-lm
 
 all: main
