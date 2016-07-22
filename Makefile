@@ -1,5 +1,5 @@
-CC=hipcc -g
-HIPCC=hipcc -g
+CC=cc -fopenmp
+HIPCC=hipcc
 CFLAGS=-I./ -O3
 HIPCCFLAGS=-I./ -O3
 LDFLAGS=
